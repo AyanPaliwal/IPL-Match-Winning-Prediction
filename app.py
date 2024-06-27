@@ -46,5 +46,6 @@ def predict():
         return render_template('result.html', batting_team=batting_team, bowling_team=bowling_team, win_probability=win_probability, loss_probability=loss_probability)
 
 
-if __name__ == '__main__':
-    app.run(debug=True)
+
+# if __name__ == '__main__':
+#     app.run(debug=True)
